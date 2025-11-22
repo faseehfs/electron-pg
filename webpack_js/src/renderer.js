@@ -43,3 +43,10 @@ document.getElementById("click-me-btn").addEventListener("click", () => {
 
 document.getElementById("version-info").innerText =
   `This app is using Chrome version ${versions.chrome()}, Node.js version ${versions.node()}, and Electron version ${versions.electron()}.`;
+
+const callPing = async () => {
+  const response = await window.versions.ping();
+  document.getElementById("ping-returned").innerText = response;
+};
+
+callPing();
