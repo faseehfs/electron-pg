@@ -40,3 +40,6 @@ document.getElementById("click-me-btn").addEventListener("click", () => {
   clickMeP.innerHTML = ClickMeText;
   ClickMeText = temp;
 });
+
+document.getElementById("version-info").innerText =
+  `This app is using Chrome version ${versions.chrome()}, Node.js version ${versions.node()}, and Electron version ${versions.electron()}.`;
