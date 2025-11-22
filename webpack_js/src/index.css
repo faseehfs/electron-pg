@@ -1,8 +1,9 @@
 :root {
-  --primary-bg: white;
-  --secondary-bg: black;
-  --primary: rgb(212, 212, 238);
-  --primary-active: rgb(199, 199, 247);
+  --primary-bg: rgb(255, 255, 255);
+  --secondary-bg: rgb(236, 244, 255);
+  --primary: rgb(45, 109, 228);
+  --on-primary: rgb(255, 255, 255);
+  --primary-active: rgb(30, 92, 207);
 }
 
 body {
@@ -17,6 +18,7 @@ button {
   border-radius: 0.2rem;
   border-width: 0;
   background-color: var(--primary);
+  color: var(--on-primary);
 }
 
 button:active {
@@ -25,4 +27,11 @@ button:active {
 
 hr {
   margin: 0;
+}
+
+.panel {
+  margin: 0;
+  padding: 0.5rem;
+  background-color: var(--secondary-bg);
+  border-radius: 0.5rem;
 }
