@@ -31,3 +31,12 @@ import "./index.css";
 console.log(
   '👋 This message is being logged by "renderer.js", included via webpack'
 );
+
+let ClickMeText = "Oh, did you click that button?";
+
+document.getElementById("click-me-btn").addEventListener("click", () => {
+  const clickMeP = document.getElementById("click-me-p");
+  const temp = clickMeP.innerHTML;
+  clickMeP.innerHTML = ClickMeText;
+  ClickMeText = temp;
+});

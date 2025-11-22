@@ -1,0 +1,28 @@
+:root {
+  --primary-bg: white;
+  --secondary-bg: black;
+  --primary: rgb(212, 212, 238);
+  --primary-active: rgb(199, 199, 247);
+}
+
+body {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  margin: 0;
+  padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  border-width: 0;
+  background-color: var(--primary);
+}
+
+button:active {
+  background-color: var(--primary-active);
+}
+
+hr {
+  margin: 0;
+}
