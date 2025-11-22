@@ -1,6 +1,6 @@
 {
-  "name": "my_first_app",
-  "productName": "my_first_app",
+  "name": "webpack_js",
+  "productName": "webpack_js",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".webpack/main",
